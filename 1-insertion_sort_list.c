@@ -2,9 +2,9 @@
 
 /**
  * swap_nodes - Swap two nodes in a listint_t doubly-linked list.
- * @h: A pointer to the head of the doubly-linked list.
- * @n1: A pointer to the first node to swap.
- * @n2: The second node to swap.
+ * @h: pointer to head of the doubly-linked list.
+ * @n1: pointer of first node to swap.
+ * @n2: second node to swap.
  */
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 {
@@ -22,11 +22,9 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 }
 
 
-
 /**
- * insertion_sort_list - sorts a doubly linked list of
- * integers in ascending order
- * @list: A pointer to the head of the doubly linked list
+ * insertion_sort_list - sorts doubly linked list
+ * @list: pointer to the head of the doubly linked list
  *
  */
 void insertion_sort_list(listint_t **list)

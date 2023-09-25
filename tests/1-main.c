@@ -3,12 +3,12 @@
 #include "../sort.h"
 
 /**
- * create_listint - Creates a doubly linked list from an array of integers
+ * create_listint - to create doubly linked list from array of integers
  *
- * @array: Array to convert to a doubly linked list
+ * @array: Array to convert a doubly linked list
  * @size: Size of the array
  *
- * Return: Pointer to the first element of the created list. NULL on failure
+ * Return: first element pointer success, NULL failure
  */
 listint_t *create_listint(const int *array, size_t size)
 {
